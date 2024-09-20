@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_div{
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    height: 400px;
+}
+
+.Address_parent{
+   width: 550px;
+}
+.single_address{
+    display: flex;
+    padding: 20px 30px;
+    
+}
+.writen > h4{
+    font-size: 22px;
+    color: #22688E;
+    margin-bottom: 5px;
+}
+
+.contact_title{
+    /* margin: auto;
+    width: 1100px; */
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    color: black;
+
+}
+.contact_title > h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.contact_title > p{
+    padding: 20px 0;
+}
+section{
+   /* background-image: url(../picture/university.jpg); */
+
+    padding: 100px 0;
+    
+}
+.icon{
+    font-size: 25px;
+    margin: 0 20px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 0.5s;
+   
+}
+.icon:hover{
+    color: rgb(194, 12, 12);
+}
+
+.form_div{
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 365px;
+    padding: 0 30px;
+    border-radius: 10px;
+    box-shadow: -3px -2px 15px rgba(138, 138, 131, 0.62);
+
+}
+.form_div > h3{
+    
+    font-size: 30px;
+    color: rgb(20, 6, 6);
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.form_div > hr{
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+   
+}
+.form_div > a {
+   
+    background-color: dodgerblue;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 10px 183px;
+    transition: 0.5s;
+    
+}
+.form_div > a:hover{
+    color: #22688E;
+        background-color: lightpink;
+   margin: auto;
+}
+
+
+
+
+
+
+
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(dodgerblue ,rgb(9, 70, 131));
+}
+#navigation > ul > li{
+    list-style: none;
+    margin: 0 5px;
+    padding: 15px 0;
+    margin-left: -5px;
+}
+#navigation > ul{
+    display: flex;
+    margin-right: 50px;
+}
+#navigation > ul > li >a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-right: 1px solid wheat;
+    padding: 16px 20px;
+    transition: 0.5s;
+   
+}
+
+#navigation > ul > li:hover{
+background-color: rgb(43, 72, 100);
+}
+#navigation> ul>li:first-child>a{
+    border-left: 1px solid wheat;
+}
+
+.logo > h1{
+color: rgb(241, 234, 234);
+font-size: 25px;
+margin-left: 50px;
+text-transform: capitalize;
+border: 2px solid rgba(12, 93, 243, 0.986);
+padding: 2px 5px;
+cursor: pointer;
+transition: 0.5s;
+}
+.logo > h1:hover{
+    border: none;
+}
+
